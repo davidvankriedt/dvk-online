@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <section className="flex flex-col h-screen items-center my-5">
       <Marquee
-        className="text-[150px] no-scrollbar"
+        className="md:text-[100px] lg:text-[150px] text-[30px] no-scrollbar"
         direction="left"
         speed={200}
         >
@@ -15,7 +15,7 @@ export default function Home() {
         <a href="https://github.com/davidvankriedt">github</a>
         <a href="https://davidvankriedt.github.io/notes/">notes</a>
       </div>
-      <video width="1080" height="240" autoPlay muted loop>
+      <video className="w-96 md:w-3/4 lg:w-1/2" autoPlay muted loop>
         <source src="/gnomes.mp4" type="video/mp4" />
       </video>
     </section>
