@@ -17,7 +17,10 @@ export default function RootLayout({
     <html
       lang="en"
     >
-      <body className={`${bitcount.className} antialised`}>{children}</body>
+      <body className={`${bitcount.className} antialised`}>
+        {children}
+        <Analytics />
+        </body>
     </html>
   );
 }
