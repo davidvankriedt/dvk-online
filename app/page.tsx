@@ -15,7 +15,7 @@ export default function Home() {
         <a href="https://github.com/davidvankriedt">github</a>
         <a href="https://davidvankriedt.github.io/notes/">notes</a>
       </div>
-      <video className="w-96 md:w-3/4 lg:w-1/2" autoPlay muted loop>
+      <video className="w-96 md:w-3/4 lg:w-1/2" autoPlay muted playsInline loop>
         <source src="/gnomes.mp4" type="video/mp4" />
       </video>
     </section>
