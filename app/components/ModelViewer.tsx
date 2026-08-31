@@ -5,7 +5,7 @@ import { useGLTF, OrbitControls, Stage } from "@react-three/drei";
 import { Suspense } from "react";
 
 function Model() {
-  const { stage } = useGLTF('/dvk-3d-figure.glb');
+  const { scene } = useGLTF('/dvk-3d-figure.glb');
   return <primitive object={scene} />;
 }
 
