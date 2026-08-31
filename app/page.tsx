@@ -1,5 +1,5 @@
 import Marquee from 'react-fast-marquee';
-import ModelViewer from './components/ModelViewer.tsx';
+import ModelViewer from './components/ModelViewer';
 
 export default function Home() {
   return (
