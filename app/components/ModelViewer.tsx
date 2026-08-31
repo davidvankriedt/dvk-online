@@ -4,9 +4,8 @@ import { Canvas } from "@react-three/fiber";
 import { useGLTF, OrbitControls, Stage } from "@react-three/drei";
 import { Suspense } from "react";
 
-function Model({ url }) {
-  // Automatically loads and caches the GLB file
-  const { scene } = useGLTF(url);
+function Model() {
+  const { stage } = useGLTF('/dvk-3d-figure.glb');
   return <primitive object={scene} />;
 }
 
@@ -17,7 +16,7 @@ export default function ModelViewer() {
         <Suspense fallback={null}>
           {/* Stage provides automatic studio lighting and centering */}
           <Stage environment="city" intensity={0.6}>
-            <Model url="/dvk-3d-figure.glb" />
+            <Model />
           </Stage>
         </Suspense>
         {/* OrbitControls allows users to rotate and zoom the model */}
