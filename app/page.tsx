@@ -16,9 +16,17 @@ export default function Home() {
         <a className="text-2xl md:text-xl" href="https://github.com/davidvankriedt">github</a>
         <a className="text-2xl md:text-xl" href="https://davidvankriedt.github.io/notes/">notes</a>
       </div>
-      <video className="w-96 md:w-3/4 lg:w-1/2" autoPlay muted playsInline loop>
-        <source src="/gnomes.mp4" type="video/mp4" />
-      </video>
+     
+      <div className="w-full max-w-3xl mx-auto my-8 aspect-video">
+          <iframe 
+            className="w-full h-full rounded-lg border-0 block"
+            src="https://www.youtube.com/embed/T8vqC--nP04?si=zCLN4WI1xUrtY-CD"
+            title="David Van Kriedt - AFRAID (Official Music Video)" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowFullScreen>
+        </iframe>
+      </div>
 
       <ModelViewer />
 
