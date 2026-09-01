@@ -12,7 +12,7 @@ export default function Home() {
         david van kriedt
       </Marquee>
       <div className="flex flex-col gap-4 my-5 mx-auto items-center md:flex-row md:w-64">
-        <a className="text-2xl md:text-xl" href="https://open.spotify.com/artist/5qO2KqO0ypwGgoLP6PrrU?si=giTAOfsTTtqI8jz0Rnbmzw">music</a>
+        <a className="text-2xl md:text-xl" href="https://distrokid.com/hyperfollow/davidvankriedt/afraid?ref=release">music</a>
         <a className="text-2xl md:text-xl" href="https://github.com/davidvankriedt">github</a>
         <a className="text-2xl md:text-xl" href="https://davidvankriedt.github.io/notes/">notes</a>
       </div>
